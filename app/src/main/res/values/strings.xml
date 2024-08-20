@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PD diary</string>
+    <string name="patient_unique_id">Patient Unique ID</string>
+    <string name="enter_the_id">Enter the id</string>
+    <string name="patient_device_name">Patient Device Name</string>
+    <string name="adress">Adress</string>
+    <string name="enter_server_address">Enter server address</string>
+    <string name="save_info">Save Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_diary_date">Select Diary Date</string>
+    <string name="calendar_icon_border">Calendar Icon Border</string>
+    <string name="time">Time</string>
+    <string name="asleep">Asleep</string>
+    <string name="on_text">ON</string>
+    <string name="on_with_troublesome_dyskinesia">On With troublesome dyskinesia</string>
+    <string name="on_without_troublesome_dyskinesia">On without troublesome dyskinesia</string>
+    <string name="off_text">OFF</string>
+    <string name="med_1_status">Med-1 Status</string>
+    <string name="med_2_status">Med-2 Status</string>
+    <string name="rate_your_symptom_from_0_to_100">Rate Your Symptom From 0 to 100</string>
+    <string name="list_of_saved_hauser_entries">List of Saved Hauser Entries</string>
+    <string name="select_an_entry_to_view_or_update">**Select an entry to view or update</string>
+    <string name="no_entries_found">No entries found</string>
+    <string name="asu_mayo_pd_app">ASU Mayo PD App</string>
+    <string name="add_a_new_diary">Add a new diary</string>
+    <string name="view_update_previous_diary">View/Update previous diary</string>
+    <string name="save">Save</string>
+    <string name="home">Home</string>
+    <string name="dairy">Dairy</string>
+    <string name="profile">Profile</string>
+    <string name="submit">Submit</string>
+    <string name="server">Server</string>
+    <string name="name_of_prescribed_medication_s">Name of prescribed Medication(s)</string>
+    <string name="enter_number_of_prescribed_medication">Enter number of prescribed medication</string>
+    <string name="medication">Medication</string>
+    <string name="enter_device_name">Enter Device Name</string>
+    <string name="device">Device</string>
+    <string name="user_profile">User Profile</string>
+</resources>

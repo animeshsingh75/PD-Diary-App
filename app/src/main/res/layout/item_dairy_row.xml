@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:weightSum="9"
+    android:background="?attr/selectableItemBackground">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/asleep"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/on"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/on_with_troublesome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/on_without_troublesome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/off"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/med_1_status"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/med_2_status"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/measurement_slider"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:value="0.0"
+        android:valueFrom="0.0"
+        android:valueTo="100"
+        app:tickVisible="false"
+        android:stepSize="1"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
